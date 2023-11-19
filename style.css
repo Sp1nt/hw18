@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 55px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    display: block;
+}
+
+button {
+    border: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.section {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container {
+    margin-right: 25px;
+    width: auto;
+}
+
+.container-video {
+    overflow: hidden;
+    aspect-ratio: 16 / 9; 
+    border-radius: 16px;
+}
+
+.setting{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.container-nameVideo h3{
+    margin-top: 12px;
+    margin-bottom: 25px;
+
+}
+.content {
+    display: flex;
+}
+.content-flex {
+    display: flex;
+    align-items: center;
+}
+.content-flex:nth-child(2) {
+    margin-left: 20em;
+}
+
+.content-flex img {
+    margin-right: 10px;
+
+    width: 50px;
+}
+.content-right {
+    margin-right: 25px;
+}
+
+.subscribers {
+    color: #aaa;
+    font-size: 0.8em;
+}
+.follow {
+    display: block;
+    padding:  8px 15px;
+
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #000;
+   
+
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+.follow:hover {
+    background-color: #959191;
+    
+}
+.content-social {
+    margin-left: 15px;
+
+    display: flex;
+  
+
+    overflow: hidden;
+
+    background-color: #959191;
+    border-radius: 15px;
+
+}
+.content-social img {
+    max-width: 20px;
+}
+.btn-social {
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    padding: 4px 10px;
+
+    transition: 0.5 ease;
+}
+.btn-social:hover {
+    background-color: #959191;
+}
+
+.content-description {
+    margin-top: 15px;
+    padding: 12px;
+
+    border-radius: 12px;
+    background-color: #f3eaea;
+}
+
+.content-description p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+
+.container-info {
+    margin-top: 15px;
+}
+.about-info {
+    display: flex;
+
+    margin-bottom: 12px;
+}
+.indent-info {
+
+    width: 200px;
+}
+
+
+.link-info {
+    color: #1b64c5;
+}
+
+#Alien-Covenant {
+    position: relative;
+    background: url('img/AlienCovenant.jpg') center/cover ;
+}
+
+#Alien-Covenant::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(30%);
+}
+
+#Initial-code{
+    background: url('img/Initial code.jpg')  center/cover ;
+}
+#Initial-code::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(30%);
+}
+
+#Shot-Caller{
+    background: url('img/Shot_Caller.jpg')  center/cover ;
+}
+#Shot-Caller::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(30%);
+}
+
+#Revenge{
+    background: url('img/Revenge.jpg')  center/cover ;
+}
+#Revenge::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(30%);
+}
+
+#Who-Am-I{
+    background: url('img/Who_am_I.jpg')  center/cover ;
+}
+#Who-Am-I::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(30%);
+}
+
+#Look-Away{
+    background: url('img/Look_Away.jpg')  center/cover ;
+}
+#Look-Away::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(30%);
+}
+
+.container-recommendation {
+    width: 400px;
+}
+.container-flex {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.container-flex img {
+    position: relative;
+    margin: auto;
+    width: 40%;
+   
+}
+
+.block-video {
+    position: relative;
+    margin-right: 10px;
+    width: 170px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.recommendation-info {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+.recommendation-info h4{
+    margin-bottom: 10px;
+}
+.recommendation-details{
+    color: #aaa;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+}
+
+
+.movie-sales {
+    font-size: 0.7em;
+    color: #2b9f3e;
+}
